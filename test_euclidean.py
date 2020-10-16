@@ -1,6 +1,7 @@
 import distances
 
-u = (2, -1)
-v = (-2, 2)
+def test_euclidean():
+    u = (2, -1)
+    v = (-2, 2)
 
-assert distances.euclidean_distance(u, v) == 5
+    assert distances.euclidean_distance(u, v) == 5
